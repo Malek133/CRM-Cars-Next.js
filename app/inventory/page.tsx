@@ -1,8 +1,10 @@
 
 // import { getCars } from "@/app/actions/carActions"
 // import { CarCard } from "@/components/car-card"
+// import { requireAuth } from "@/lib/auth"
 
 // export default async function Inventory() {
+//   await requireAuth()
 //   const cars = await getCars()
 
 //   return (
@@ -46,6 +48,7 @@ export default async function Inventory() {
             year={car.year}
             price={car.price}
             quantity={car.quantity}
+            imageUrl={car.imageUrl}
           />
         ))}
       </div>

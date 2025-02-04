@@ -60,5 +60,6 @@ model Car {
   year     Int
   price    Int
   quantity Int
+   imageUrl String?
 }
 
